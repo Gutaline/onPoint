@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: thistle;
+}
+
+.Phoenix {
+    position: relative;
+    margin-left: 50px;
+    width: 300px;
+}
+.Phoenix-bg {
+    background-color: #1f2326;
+    width: 290px;
+    height: 582px;
+    background-image: url('../images/Art.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100% 100%;
+}
+
+.Phoenix-country {
+    color: #ff4656;
+    font-size: 25px;
+    letter-spacing: 8px;
+    transform: rotate(90deg);
+    position: absolute;
+    left: 31px;
+    top: 20px;
+    width: 0;
+    white-space: nowrap;
+}
+
+.Phoenix-name {
+    color: #ff4656;
+    font-size: 93px;
+    letter-spacing: 8px;
+    transform: rotate(90deg);
+    position: absolute;
+    left: -20px;
+    top: -12px;
+    width: 0;
+    white-space: nowrap;
+    text-transform: uppercase;
+    z-index: 10;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px white;
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 195px;
+    position: relative;
+}
+
+header img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
